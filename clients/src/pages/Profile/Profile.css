@@ -1,0 +1,73 @@
+.Backgroundp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-left: 250px;
+  padding-right: 900px;
+  grid-gap: 28px;
+  padding-bottom: 500px;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 450px;
+  padding-bottom: 50px;
+}
+.Back {
+  background-color: black;
+  padding-top: 10px;
+}
+
+.Postp {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+.titlep {
+  color: black;
+  font-weight: bold;
+}
+.Amountp {
+  display: flex;
+  color: none;
+
+  position: absolute;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+
+  width: 300px;
+}
+.Amountp:hover {
+  background-color: black;
+  opacity: 1;
+  color: white;
+}
+.Imagep :hover {
+  opacity: 0.5;
+}
+
+.Imagep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Imagep img {
+  width: 300px;
+  height: 300px;
+
+  object-fit: cover;
+}
